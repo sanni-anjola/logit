@@ -1,14 +1,14 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-
+# class UserViewSet()
 # Create your views here.
-def hello(request):
-    return HttpResponse('Hello')
-
-
 def create_account(request):
     return HttpResponse('Create account')
+
+
+def hello(request):
+    return HttpResponse('Hello')
 
 
 def login(request):
